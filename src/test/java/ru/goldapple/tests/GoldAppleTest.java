@@ -4,7 +4,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import ru.goldapple.pages.MainPageSteps;
 
-public class GoldAppleTest {
+public class GoldAppleTest extends TestBase {
 
     MainPageSteps steps = new MainPageSteps();
     String city = "Екатеринбург";
